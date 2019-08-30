@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Aspira", "Helvetica", "Calibri";
+}
+body {
+    background-color: #fafafa;
+}
+h1 {
+    color: rgb(50, 50, 50);
+    position: absolute;
+    font-size: 48px;
+    margin: 10% 0 0 13%;
+}
+h2#exp {
+    color: rgb(50, 50, 50);
+    position: absolute;
+    margin: 210px 0 0 40%;
+}
+h2#sell-price {
+    color: rgb(50, 50, 50);
+    position: absolute;
+    margin: 210px 0 0 55%;
+}
+#table-01 {
+    width: 55vw;
+    height: 5vh;
+    margin-left: 13%;
+    margin-top: 14%;
+    border-collapse: collapse;
+    position: absolute;
+    text-align: center;
+}
+#table-02 {
+    width: 55vw;
+    height: 5vh;
+    margin-left: 13%;
+    margin-top: 29%;
+    border-collapse: collapse;
+    position: absolute;
+    text-align: center;
+}
+#table-01 th, #table-02 th {
+    font-weight: bold;
+    color: #fafafa;
+    border: 1px solid #fafafa;
+    padding: 12px 0;
+    background-color: rgb(80, 80, 80);
+}
+td {
+    width: 10vw;
+    background-color: rgb(240, 240, 240);
+    border: 1px solid #fafafa;
+    padding: 10px 20px;
+}
+.button {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: rgba(128, 201, 214);
+    color: white;
+    font-weight: bold;
+}
+.b {
+    padding: 0;
+}
+.button:hover {
+    background-color: rgb(204, 234, 240);
+}
+#right-container {
+    margin-left: 72%;
+    margin-top: 14%;
+    position: absolute;
+    background-color: rgb(240, 240, 240);
+    border: 1px solid rgb(209, 209, 209);
+    width: 15vw;
+    height: 42.5vh;
+    font-size: 18px;
+}
+#h31 {
+    color: #313131;
+    font-size: 25px;
+    text-align: center;
+    padding: 25px;
+}
+ul {
+    list-style-type: none;
+    text-align: left;
+    margin-left: 20%;
+}
+li {
+    line-height: 30px;
+}
